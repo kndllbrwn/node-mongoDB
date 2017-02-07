@@ -220,7 +220,6 @@ describe('POST /users', () => {
                     done();
                 }).catch((e) => done(e));
             });
-            done();
     });
     
     it('should return validation errors if request invalid', (done) => {
